@@ -9,5 +9,8 @@ var options = {
     path: '/http-examples/step5.html'
 }
 
+module.exports = {printHTML: printHTML}
+
 
 getfuncs.getHTML(options, printHTML)
+
